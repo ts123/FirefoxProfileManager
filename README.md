@@ -1,0 +1,3 @@
+MacでFirefoxのProfileManagerを起動するだけのアプリ
+==================
+
