@@ -15,11 +15,12 @@ dist: all
 	cp -aR ${DST} /Applications/
 clean:
 	find . \
+		! -path './.git*' \
 		! -name Makefile \
 		! -name '*.md' \
 		! \( -name '*.scpt' -depth 1 \) \
 		! \( -name '*.icns' -depth 1 \) \
 		-delete
 cleanall: clean
-	rm -rf /Applications/FirefoxProfileManger.app
+	rm -rf /Applications/${DST}
 
