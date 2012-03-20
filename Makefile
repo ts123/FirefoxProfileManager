@@ -1,6 +1,6 @@
 
 SRC=t.scpt
-DST=FirefoxProfileManger.app
+DST=FirefoxProfileManager.app
 
 all: ${DST}
 ${DST}:
